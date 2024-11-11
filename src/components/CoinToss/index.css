@@ -1,0 +1,60 @@
+.bg-container{
+    background-image:linear-gradient(to right,#f9d423, #e2a139);
+    background-size:cover;
+    min-height:100vh;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+.card-container{
+    background-color:#ffffff;
+    border-radius:12px;
+    height:90%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.img{
+    height:30%;
+    width:30%;
+}
+.heading{
+    color:#a35200;
+    font-family:"Roboto";
+    font-size:32px;
+    font-weight:700;
+}
+.counts-container{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+.btn{
+    color:#a35200;
+    background-color:#f9d423;
+    border:none;
+    border-radius:6px;
+    height:30px;
+    width:80px;
+    font-family:"Roboto";
+    font-weight:300;
+}
+.count{
+    color:#475569;
+    margin-right:10px;
+    font-family:"Roboto";
+    
+}
+
+.message{
+    color:#334155;
+    font-weight:600;
+    font-family:"Roboto";
+    font-size:18px;
+}
